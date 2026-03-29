@@ -1,5 +1,6 @@
 import './App.css'
 import FooterUp from './FooterUp/FooterUp'
+import GetStarted from './Get Started/GetStarted'
 import Hero from './Hero/Hero'
 import Footer from './Main footer/Footer'
 import NavBar from './Nav/NavBar'
@@ -13,6 +14,7 @@ function App() {
      <NavBar></NavBar>
       <Hero></Hero>
       <Stats></Stats>
+      <GetStarted></GetStarted>
       <FooterUp></FooterUp>
       <Footer></Footer>
     </>
