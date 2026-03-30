@@ -62,7 +62,7 @@ export default function Pricing() {
                 {PLANS.map((plan) => (
                     <div
                         key={plan.name}
-                        className={`relative flex flex-col rounded-2xl p-7 pb-7 transition-all duration-200 ease-in
+                        className={`relative flex flex-col rounded-2xl p-7 pb-7 transition-all duration-200 ease-in cursor-pointer
               ${plan.popular
                                 ? "bg-gradient-to-br from-[#7c3aed] to-[#a855f7] pt-11  hover:-translate-y-1.5 order-first lg:order-none"
                                 : "bg-white border border-[#e5e7eb] pt-8 hover:-translate-y-1 "
