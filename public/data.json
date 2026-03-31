@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Pack",
+    "description": "Basic resume builder for beginners.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic editing", "Export to PDF"],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "Award"
+  },
+  {
+    "id": 3,
+    "name": "Career Plus",
+    "description": "Resume + cover letter bundle.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Resume builder", "Cover letter", "Download unlimited"],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Pro",
+    "description": "Create professional portfolio websites.",
+    "price": 29,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Portfolio templates", "Custom domain", "SEO tools"],
+    "icon": "Globe"
+  },
+  {
+    "id": 5,
+    "name": "Student Pack",
+    "description": "Perfect for students and freshers.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Student templates", "Internship resume", "PDF export"],
+    "icon": "GraduationCap"
+  },
+  {
+    "id": 6,
+    "name": "Executive Plan",
+    "description": "Premium resumes for executives.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Executive templates", "Personal branding", "Priority support"],
+    "icon": "Crown"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Kit",
+    "description": "Resume builder for freelancers.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Client-focused templates", "Portfolio section", "PDF export"],
+    "icon": "Laptop"
+  },
+  {
+    "id": 8,
+    "name": "ATS Pro Max",
+    "description": "Advanced ATS-friendly resume pack.",
+    "price": 25,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["ATS score", "Keyword suggestions", "Unlimited downloads"],
+    "icon": "ShieldCheck"
+  },
+  {
+    "id": 9,
+    "name": "Minimal Resume",
+    "description": "Clean and minimal templates.",
+    "price": 7,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Minimal templates", "Simple editing", "PDF export"],
+    "icon": "Layout"
+  },
+  {
+    "id": 10,
+    "name": "Creative Designer Pack",
+    "description": "For UI/UX and graphic designers.",
+    "price": 18,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Creative templates", "Portfolio pages", "Color customization"],
+    "icon": "Palette"
+  },
+  {
+    "id": 11,
+    "name": "Job Hunter",
+    "description": "Everything needed to apply for jobs.",
+    "price": 14,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Resume + cover letter", "Tracking", "Unlimited export"],
+    "icon": "Search"
+  },
+  {
+    "id": 12,
+    "name": "Developer Resume Kit",
+    "description": "Tech-focused resume templates.",
+    "price": 16,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Developer templates", "Skills highlight", "GitHub section"],
+    "icon": "Code"
+  },
+  {
+    "id": 13,
+    "name": "Ultimate Career Pack",
+    "description": "All-in-one career toolkit.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["All templates", "Portfolio builder", "Priority support"],
+    "icon": "Rocket"
+  },
+  {
+    "id": 14,
+    "name": "Quick Resume",
+    "description": "Build resume in minutes.",
+    "price": 4,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Quick builder", "Auto fill", "PDF export"],
+    "icon": "Zap"
+  },
+  {
+    "id": 15,
+    "name": "Premium Pro Max",
+    "description": "Top-tier professional resume plan.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Unlimited templates", "AI suggestions", "Premium support"],
+    "icon": "Star"
+  }
+]

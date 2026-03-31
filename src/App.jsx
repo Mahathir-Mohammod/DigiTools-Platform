@@ -1,26 +1,31 @@
-import './App.css'
-import FooterUp from './FooterUp/FooterUp'
-import GetStarted from './Get Started/GetStarted'
-import Hero from './Hero/Hero'
-import Footer from './Main footer/Footer'
-import NavBar from './Nav/NavBar'
-import Pricing from './Pricing card/Pricing'
-import Stats from './Stats/Stats'
+import { Suspense } from "react";
+import "./App.css";
+import NavBar from "./Nav/NavBar";
+import Hero from "./Hero/Hero";
+import Stats from "./Stats/Stats";
+import Products from "./Products/Products";
+import Pricing from "./Pricing card/Pricing";
+import GetStarted from "./Get Started/GetStarted";
+import FooterUp from "./FooterUp/FooterUp";
+import Footer from "./Main footer/Footer";
 
 
 function App() {
 
   return (
     <>
-     <NavBar></NavBar>
+      <NavBar></NavBar>
       <Hero></Hero>
       <Stats></Stats>
-      <GetStarted></GetStarted>
+      <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+        <Products></Products>
+      </Suspense>
       <Pricing></Pricing>
+      <GetStarted></GetStarted>
       <FooterUp></FooterUp>
       <Footer></Footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
