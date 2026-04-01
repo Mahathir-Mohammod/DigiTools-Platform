@@ -1,16 +1,71 @@
-# React + Vite
+## 📖 About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DigiTools** is a modern digital marketplace web application built with React and Vite. It lets users browse a curated catalog of premium digital products, add them to a cart, and manage purchases — all within a clean, responsive, and fast UI. The platform is designed with a purple-first design system and smooth user experience across all devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <h3>🛒 Smart Cart System</h3>
+      <p>Add products to your cart instantly with one click. Real-time cart count updates in the navigation tab, remove items anytime, and see your running total — all with satisfying toast notifications powered by <strong>React Toastify</strong>.</p>
+    </td>
+    <td width="33%" align="center">
+      <h3>⚡ Suspense-Powered Loading</h3>
+      <p>Products are loaded using React's <strong>Suspense</strong> API with a custom resource pattern. While data fetches, a polished animated skeleton UI is shown — eliminating layout shifts and providing a smooth, app-like experience.</p>
+    </td>
+    <td width="33%" align="center">
+      <h3>📱 Fully Responsive Design</h3>
+      <p>Every section — Navbar, Hero, Stats, Pricing, Products, and Footer — is built mobile-first using <strong>Tailwind CSS</strong>. The layout adapts gracefully from mobile to tablet to desktop with no horizontal scrolling.</p>
+    </td>
+  </tr>
+</table>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technology
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology
+|---|---|
+| ⚛️ **React** | 
+| ⚡ **Vite** | 
+| 🎨 **Tailwind CSS** | 
+| 🔔 **React Toastify** |
+| 🖼️ **Lucide React** | 
+| 📦 **data.json** | 
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/              
+├── FooterUp/            
+│   └── FooterUp.jsx
+├── Get Started/         
+│   └── GetStarted.jsx
+├── Hero/                
+│   └── Hero.jsx
+├── Main footer/         
+│   └── Footer.jsx
+├── Nav/                 
+│   └── NavBar.jsx
+├── Pricing card/        
+│   └── Pricing.jsx
+├── Products/            
+│   └── Products.jsx
+├── Stats/               
+│   └── Stats.jsx
+├── App.jsx              
+└── main.jsx
+
+public/
+└── data.json
+
+```
+<div align="center">
+Made with ❤️ using **React** + **Vite** + **Tailwind CSS** + **daisyui** + **React-tostify**
+</div>
