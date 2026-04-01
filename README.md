@@ -38,34 +38,6 @@
 
 ---
 
-## 📁 Project Structure
-
-```
-src/
-├── assets/              
-├── FooterUp/            
-│   └── FooterUp.jsx
-├── Get Started/         
-│   └── GetStarted.jsx
-├── Hero/                
-│   └── Hero.jsx
-├── Main footer/         
-│   └── Footer.jsx
-├── Nav/                 
-│   └── NavBar.jsx
-├── Pricing card/        
-│   └── Pricing.jsx
-├── Products/            
-│   └── Products.jsx
-├── Stats/               
-│   └── Stats.jsx
-├── App.jsx              
-└── main.jsx
-
-public/
-└── data.json
-
-```
 <div align="center">
 Made with ❤️ using **React** + **Vite** + **Tailwind CSS** + **daisyui** + **React-tostify**
 </div>
