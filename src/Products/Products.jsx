@@ -53,7 +53,7 @@ function ProductList({ cart, onAdd }) {
   };
 
   return (
-    <div className="mx-auto grid max-w-[1100px] grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="mx-auto grid max-w-[1300px] grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
       {products.map((product) => {
         const inCart = cart.find((item) => item.id === product.id);
         const tagType = product.tagType || product.tag;

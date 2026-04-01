@@ -11,17 +11,17 @@ export default function Hero() {
           New: AI-Powered Tools Available
         </div>
 
-        <h1 className="text-[clamp(2rem,4vw,2.8rem)] font-bold text-[#111827] leading-[1.2] tracking-[-0.5px] mb-5">
+        <h1 className="text-5xl font-bold text-[#111827] tracking-[-0.5px] mb-5">
           Supercharge Your <br /> Digital Workflow
         </h1>
 
-        <p className="text-[0.92rem] text-[#6b7280] leading-[1.75] max-w-[420px] mb-9 mx-auto lg:mx-0">
+        <p className="text-[0.9rem] text-[#6b7280] max-w-[420px] mb-9 mx-auto lg:mx-0">
           Access premium AI tools, design assets, templates, and productivity
           software—all in one place. Start creating faster today.
         </p>
 
         <div className="flex items-center justify-center lg:justify-start gap-4 flex-wrap">
-          <button className="bg-[#7c3aed] text-white border-none rounded-full px-7 py-3 text-[0.9rem] font-semibold cursor-pointer transition-all duration-200 ease-in shadow-[0_4px_14px_rgba(124,58,237,0.4)] hover:bg-[#6d28d9] hover:-translate-y-0.5 hover:shadow-[0_6px_20px_rgba(124,58,237,0.5)] active:translate-y-0">
+          <button className="bg-[#7c3aed] text-white border-none rounded-full px-7 py-3 text-[0.9rem] font-semibold cursor-pointer transition-all duration-200 ease-in hover:bg-[#6d28d9] hover:-translate-y-0.5  active:translate-y-0">
             Explore Products
           </button>
           
